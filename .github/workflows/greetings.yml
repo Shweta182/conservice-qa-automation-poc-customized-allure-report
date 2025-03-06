@@ -63,7 +63,7 @@ jobs:
               Hi, 
               Please find below the link for Test Automation Report
 
-              https://motifworks-india.github.io/conservice-qa-automation-poc/
+              hhttps://shweta182.github.io/conservice-qa-automation-poc-customized-allure-report/
 
               Best Regards
               ${{ secrets.SENDER_NAME }}
