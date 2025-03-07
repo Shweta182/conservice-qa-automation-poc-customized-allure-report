@@ -50,7 +50,7 @@ export default defineConfig({
    * The reporter to use. This can be set to use a different value on CI.
    * See https://playwright.dev/docs/test-reporters
    */
-  reporter: [['list'], ['./utils/reporter.ts'], ['html'], ['allure-playwright', { outputFolder: 'allure-results', suiteTitle: true, environmentInfo: { reportTitle: 'Conservice Allure Report' } }]],
+  reporter: [['list'], ['./utils/reporter.ts'], ['html'], ['allure-playwright', {suiteTitle: true, environmentInfo: { reportTitle: 'Conservice Allure Report' } }]],
 
   /**
    * Shared settings for all the projects below.
